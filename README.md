@@ -14,3 +14,7 @@ Cada skill trae su `SKILL.md` (instrucciones que sigue el modelo) y, cuando apli
 probado. Se instalan desde la pestaña **Skills** de Claw (esta fuente viene por defecto).
 
 Todo local, gratis, sin que nada salga de tu máquina. Y esto es solo el comienzo.
+
+## Licencia
+
+Apache-2.0 (ver `LICENSE` y `NOTICE`), como todo el código publicado de Elffuss.
