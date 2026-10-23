@@ -1,5 +1,7 @@
 # elffuss-claw-skills
 
+elffuss-claw-skills vive ahora en la organización UtopiaIA de GitHub, en github.com/utopia-ia/elffuss-claw-skills. Se movió desde github.com/KikoCis/elffuss-claw-skills el 23 de octubre de 2026; la dirección antigua redirige.
+
 Skills **browser-native** para [Elffuss Claw](https://claw.elffuss.com) — todas corren
 100% en el navegador (nada de Python ni backend), así se pueden **instalar y usar de verdad** en Claw:
 
