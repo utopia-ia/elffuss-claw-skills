@@ -1,22 +1,48 @@
-# elffuss-claw-skills
+<div align="center">
 
-elffuss-claw-skills vive ahora en la organización UtopiaIA de GitHub, en github.com/utopia-ia/elffuss-claw-skills. Se movió desde github.com/KikoCis/elffuss-claw-skills el 23 de octubre de 2026; la dirección antigua redirige.
+<img src="assets/logo.svg" alt="" width="72">
 
-Skills **browser-native** para [Elffuss Claw](https://claw.elffuss.com) — todas corren
-100% en el navegador (nada de Python ni backend), así se pueden **instalar y usar de verdad** en Claw:
+# Elffuss Claw skills
 
-| Skill | Qué hace |
+**Teach Claw new jobs.**
+
+Skills for [Elffuss Claw](https://claw.elffuss.com) that run entirely in the browser, with no Python and no backend, so you can
+install and use them for real. Each one is a plain `SKILL.md` that the model follows.
+
+[![License](https://img.shields.io/badge/license-Apache--2.0-1e6b52?style=flat-square)](LICENSE)
+[![Runs in](https://img.shields.io/badge/runs%20in-your%20browser-1e6b52?style=flat-square)](https://claw.elffuss.com)
+
+[Claw](https://claw.elffuss.com) · [Claw's repository](https://github.com/utopia-ia/elffuss-claw) · [Elffuss](https://elffuss.com)
+
+</div>
+
+> Elffuss Claw skills now lives in the UtopiaIA organization on GitHub, at github.com/utopia-ia/elffuss-claw-skills. It moved from github.com/KikoCis/elffuss-claw-skills on 23 October 2026; the old address redirects.
+
+---
+
+## The skills
+
+| Skill | What it does |
 |---|---|
-| `jscad-3d-print` | Objeto 3D **imprimible (STL)** desde una descripción — previa 3D + descarga STL (JSCAD) |
-| `doc-to-excel` | Datos de un documento → **Excel con fórmulas** + **gráficas** descargable (SheetJS + Chart.js) |
-| `web-research` | Busca en internet y **cierra un proceso** con un entregable (tabla/checklist/recomendación) |
-| `arcade-game` | Un **videojuego** jugable (Flappy/Snake/Pong) en un solo HTML con canvas |
+| `jscad-3d-print` | A **printable 3D object (STL)** from a description: a 3D preview and an STL download (JSCAD). |
+| `doc-to-excel` | The data of a document turned into a downloadable **Excel file with formulas and charts** (SheetJS and Chart.js). |
+| `web-research` | Searches the internet and **closes a process** with something you can act on: a table, a checklist or a recommendation. |
+| `arcade-game` | A playable **video game** (Flappy, Snake or Pong) in a single HTML file with a canvas. |
+| `live-copilot` | A live skill for conversations: it takes the transcript as it comes, from Translator or typed, and builds a live document with signals, arguments and the next step. |
 
-Cada skill trae su `SKILL.md` (instrucciones que sigue el modelo) y, cuando aplica, un `template.html`
-probado. Se instalan desde la pestaña **Skills** de Claw (esta fuente viene por defecto).
+## How to use them
 
-Todo local, gratis, sin que nada salga de tu máquina. Y esto es solo el comienzo.
+Install them from the **Skills** tab of Claw: this source is there by default. Each skill folder has its `SKILL.md` (the instructions
+the model follows) and, where it applies, a tested `template.html`.
 
-## Licencia
+The skills run in your browser. `web-research` uses Claw's internet tool, which asks for your permission first; the rest never leave
+your machine.
 
-Apache-2.0 (ver `LICENSE` y `NOTICE`), como todo el código publicado de Elffuss.
+## Write your own
+
+A skill is a folder with a `SKILL.md`: a short header that says when to use it, and the method. Look at any folder in `skills/`
+and copy the shape.
+
+## Licence
+
+[Apache-2.0](LICENSE). See `NOTICE`.
